@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:infra="clr-namespace:ECommerceAp.Infrastructure;assembly=ECommerceAp"
+             x:Class="ECommerceAp.App">
+
+  <Application.Resources>
+    <ResourceDictionary>
+      <!-- color -->
+      <Color x:Key="MainColor">#BF8FA4</Color>
+      <Color x:Key="FontColor">#BF8FA4</Color>
+      <Color x:Key="MenuColor">#8E2F72</Color>
+      <Color x:Key="MenuFontColor">#8E2F72</Color>
+      <Color x:Key="BackgroundColor">#CFD3D1</Color>
+      <Color x:Key="AccentdColor">#BF8FA4</Color>
+
+      <!-- Locator -->
+      <infra:InstanceLocator x:Key="Locator"></infra:InstanceLocator>
+      
+    </ResourceDictionary>
+  </Application.Resources>  
+</Application>
